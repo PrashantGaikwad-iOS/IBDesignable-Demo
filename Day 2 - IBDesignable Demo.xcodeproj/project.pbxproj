@@ -13,6 +13,7 @@
 		0D36B72F207522E30055397C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D36B72E207522E30055397C /* Assets.xcassets */; };
 		0D36B732207522E30055397C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D36B730207522E30055397C /* LaunchScreen.storyboard */; };
 		0D36B73A2075232E0055397C /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D36B7392075232E0055397C /* DesignableView.swift */; };
+		89F3851A21DCC0BD002841CD /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F3851921DCC0BD002841CD /* DesignableButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0D36B731207522E30055397C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D36B733207522E30055397C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D36B7392075232E0055397C /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		89F3851921DCC0BD002841CD /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				0D36B727207522E30055397C /* AppDelegate.swift */,
 				0D36B7392075232E0055397C /* DesignableView.swift */,
+				89F3851921DCC0BD002841CD /* DesignableButton.swift */,
 				0D36B729207522E30055397C /* ViewController.swift */,
 				0D36B72B207522E30055397C /* Main.storyboard */,
 				0D36B72E207522E30055397C /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 				0D36B72A207522E30055397C /* ViewController.swift in Sources */,
 				0D36B728207522E30055397C /* AppDelegate.swift in Sources */,
 				0D36B73A2075232E0055397C /* DesignableView.swift in Sources */,
+				89F3851A21DCC0BD002841CD /* DesignableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

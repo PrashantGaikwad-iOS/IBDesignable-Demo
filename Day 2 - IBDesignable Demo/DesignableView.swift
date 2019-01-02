@@ -41,30 +41,3 @@ class DesignableView: UIView {
   }
 
 }
-
-@IBDesignable
-class DesignableButton: UIButton {
-    
-    // Corner Radius
-    @IBInspectable var cornerRadius: CGFloat = 0 {
-        didSet {
-            self.layer.cornerRadius = cornerRadius
-        }
-    }
-    
-    // Border width
-    @IBInspectable var borderWidth: CGFloat = 0 {
-        didSet {
-            self.layer.borderWidth = borderWidth
-        }
-    }
-    
-    // Border Color
-    @IBInspectable var borderColor: UIColor = .clear {
-        didSet {
-            self.layer.borderColor = borderColor.cgColor
-        }
-    }
-    
-    
-}
